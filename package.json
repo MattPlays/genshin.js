@@ -1,0 +1,34 @@
+{
+  "name": "@mattplays/genshin.js",
+  "version": "1.0.0",
+  "description": "genshin.js is a wrapper for the https://genshin.dev API",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "docs": "typedoc --tsconfig tsconfig.json src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattPlays/genshin.js.git"
+  },
+  "keywords": [
+    "genshin",
+    "API"
+  ],
+  "author": "MattPlays",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattPlays/genshin.js/issues"
+  },
+  "homepage": "https://github.com/MattPlays/genshin.js#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "typedoc": "^0.22.7",
+    "typescript": "^4.4.4"
+  }
+}
