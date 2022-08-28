@@ -6,7 +6,8 @@
   "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "docs": "typedoc --tsconfig tsconfig.json src/index.ts"
+    "docs": "typedoc --tsconfig tsconfig.json src/index.ts",
+    "test": "ts-node test/index.ts"
   },
   "repository": {
     "type": "git",
@@ -23,11 +24,13 @@
   },
   "homepage": "https://github.com/MattPlays/genshin.js#readme",
   "dependencies": {
-    "axios": "^0.24.0"
+    "undici": "^5.10.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.2.0",
-    "@typescript-eslint/parser": "^5.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "eslint": "^8.23.0",
+    "ts-node": "^10.9.1",
     "typedoc": "^0.22.7",
     "typescript": "^4.4.4"
   }
